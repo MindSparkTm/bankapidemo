@@ -1,3 +1,5 @@
+
+
 This is the instructions of how to use the application 
 
 The application has been built using Java with Spring boot,JPA, Hibernate, Maven and Mysql Database.
@@ -23,6 +25,10 @@ The architecture that has been used to build this REST API is as follows
 Instructions on how to use the application:-
 
 Database layer -
+Important information *** - Please make sure you empty the records in the SQL database tables of deposit and withdrawl so that you can do fresh 
+testing. Just make sure if you decide to change the account number from 1111 to a different number then you must edit the account number
+in the code**
+
 1. To set up the database script a bankaccount.sql script is added in the project directory.
 2. You can use Xammp to import the script and set up the tables with data.
 3. The account number that has been configured with the application is 1111.
